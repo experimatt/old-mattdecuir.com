@@ -1,0 +1,166 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	background-color: white;
+}
+
+* 
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container 
+{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 800px;
+    text-align: center;
+    border: solid 1px #0000CC;
+}
+
+#header {
+	width: 800px;
+	height: 140px;
+	color: #FFFFFF;
+	background-image: url(banner.JPG);
+	background-repeat: no-repeat;
+}
+
+#wrapper {
+	background-color: white;
+}
+
+#menu {
+	background-color: white;
+	float: left;
+	width: 120px;
+	height: 490px;
+	padding: 10px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	text-align: left;
+}
+
+#main {
+	background-color: white;
+    border-left: solid 1px #0000CC;
+	float: left;
+	width: 638px;
+	height: 490px;
+	text-align: left;
+   	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+#rightmenu 
+{
+    background-color: White;
+    border-left: solid 1px #0000CC;
+    height: 490px;
+    width: 179px;
+    float: left;
+    text-align: left;
+   	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+#footer {
+	width: 800px;
+	height: 140px;
+	background-image: url(footer.JPG);
+	background-repeat: no-repeat;
+	color: black;
+	overflow: hidden;
+}
+
+.menuhead 
+{
+	font-weight: bold;
+	font-size: larger;
+	color: Black;
+}
+
+.mainlink {
+    font-weight: bold;
+}
+
+.mainsumm {
+padding-left: 1em;
+font-size: small;
+color: black;
+}
+
+.maintext 
+{
+    font-size: small;
+	color: Black;
+}
+
+.mainreg
+{
+    color: Black;
+}
+
+.mainhead
+{
+    color: Black;
+    font-size: large;
+    font-weight: bold;
+}
+.songhead
+{
+    font-weight: bold;
+    font-size: small;
+}
+
+.songlink
+{
+    color: gray;
+    font-size: small;
+    padding-left: 1em;
+}
+
+.songtext
+{
+    color: Gray;
+    font-size: small;
+    padding-left: 1em;
+}
+
+.linkhead a
+{
+    font-size: large;
+    color: #153E7E;     
+}
+
+.linkdesc 
+{
+    font-size: small;
+    color: 	gray;
+    padding-left: 1em;
+}
+
+  .clear {
+    clear:both;
+    height:1px;
+    overflow:hidden;
+  }
+  
+  .footertext 
+  {
+    text-align: center;
+    font-size: x-small;
+    margin-top: 127px;
+  }
+  
+  .footertext a
+  {
+    color: black;
+    /*color #153E7E; */
+  }
+

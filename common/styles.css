@@ -1,0 +1,316 @@
+body {
+	font-family: Perpetua, Times New Roman, Times, serif;
+	text-align: center;
+	background-color: white;
+	font-size: medium;
+	color: Black;
+}
+
+* 
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+a, a.link
+{
+    color: #003399;
+    text-decoration: none;
+}
+
+a:hover {
+  color:#c60;
+  text-decoration:underline;
+  }
+
+a img
+{
+    border-width: 0;
+}
+
+#container 
+{
+    margin-top:20px;
+    margin-bottom: 20px;
+    width: 800px;
+    text-align: center;
+    border: solid 1px #003399;
+    background-color: #eef7fe;
+}
+
+#header {
+	width: 800px;
+	height: 140px;
+	color: white;
+	overflow: hidden;
+}
+
+
+#menu 
+{
+	color: white;	
+	float: left;
+	width: 140px;
+	height: auto;
+	padding: 0px;
+	overflow: hidden;
+	text-align: left;		
+}
+
+#tmenu
+{
+    vertical-align: top;
+    background-image: url(menu-b.jpg);
+    background-repeat: repeat-y; 
+    border-bottom: dotted 1px #eef7fe;      
+}
+
+
+#main {
+	background-color: #eef7fe;
+	float: left;
+	width: 640px;
+	height: auto;
+	min-height: 480px;
+	text-align: left;
+    padding: 10px;
+	overflow: hidden;
+}
+
+
+#rightmenu 
+{
+    background-color: #eef7fe;
+    border-left: solid 1px #000099;
+    height: 490px;
+    width: 180px;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 0px;
+	overflow: hidden;
+}
+
+#footer {
+	width: 800px;
+	height: 140px;
+	background-image: url(footer.JPG);
+	background-repeat: no-repeat;
+	color: white;
+	overflow: hidden;
+}
+
+.headerlink
+{
+    font-size: 28pt;
+    color: White;
+    font-weight: bold;
+}
+
+.headerlink a
+{
+    color: White;
+}
+
+a.nav, a.nav:link, a.nav:visited
+{
+    display: block;
+    width: 130px;
+    height: 30px;
+    border-top: dotted 1px #eef7fe;
+    padding-left: 10px;
+    line-height: 30px;
+        
+	font-weight: bold;
+	font-size: larger;
+	
+	color: white;
+}
+
+a.nav:hover
+{
+    /* background-color: #2554C7; */
+    background-image: url(menu-lb.jpg);
+    background-repeat: no-repeat;
+    color: White;
+}
+
+#navb 
+{
+    border-bottom: dotted 1px #eef7fe;
+}
+
+#navh
+{
+    font-size: medium;
+    text-indent: 0em;    
+}
+
+a.gnav, a.gnav:link, a.gnav:visited
+{
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-top: dotted 1px #eef7fe;
+    line-height: 30px;
+    padding-left: 10px;
+        
+	font-weight: bold;
+	font-size: 11pt;
+	
+	color: white;    
+    text-indent: .5em;
+
+}
+
+a.gnav:hover
+{
+    background-image: url(gmenu-lb.jpg);
+    background-repeat: no-repeat;
+    color: White;
+}
+
+.mainlink {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.mainsumm {
+    padding-left: 1em;
+    font-size: medium;
+    color: black;
+}
+
+.maintext 
+{
+    font-size: medium;
+	color: Black;
+}
+
+.mainreg
+{
+    font-size:medium;
+    color: Black;
+}
+
+.mainhead
+{
+    color: Black;
+    font-weight: bold;
+}
+
+.newshead
+{
+    color: Black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.date
+{
+    color: gray;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.songhead
+{
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.songlink
+{
+    color: gray;
+    font-size: 11pt;
+    padding-left: 1em;
+}
+
+.songtext
+{
+    color: Gray;
+    font-size: 11pt;
+    padding-left: 1em;
+}
+
+.linkhead a
+{
+    font-size: large;
+    font-weight: bold;
+    color: #153E7E;     
+}
+
+.linkdesc 
+{
+    font-size: medium;
+    color: 	gray;
+    padding-left: 1em;
+}
+
+  .clear {
+    clear:both;
+    height:0px;
+    overflow:hidden;
+  }
+  
+  .footertext 
+  {
+    text-align: center;
+    font-size: small;
+  }
+  
+  .footertext a
+  {
+    color: white;
+    /*color #153E7E; */
+  }
+  
+  
+/* GOOGLE SECTION */
+  
+  
+#gheader 
+{
+    width: 800px;
+	height: 140px;
+	color: white;
+}
+
+#gmenu
+{
+    /*background-color: #000099; */
+	color: white;	
+	float: left;
+	width: 160px; /* diff */
+	height: auto;
+	padding: 0px;
+	overflow: hidden;
+	text-align: left
+}    
+
+#tgmenu
+{
+    vertical-align: top;
+    background-image: url(gmenu-b.jpg);
+    background-repeat: repeat-y; 
+    border-bottom: dotted 1px #eef7fe;      
+}
+
+
+#gfooter 
+{
+ 	width: 800px;
+	height: 140px;
+	background-image: url(footer.JPG);
+	background-repeat: no-repeat;
+	color: black;
+	overflow: hidden;   
+}
+
+.mainreport
+{
+    font-size: 11pt;
+    color: Black;
+    line-height: 150%;
+    text-indent: 0.5in;
+}
